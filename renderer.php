@@ -167,7 +167,10 @@ class format_topics_tbird_renderer extends format_section_renderer_base {
     		//$o .= '<h3><center>' . $course->fullname . '</center></h3>';
     		$o .= '<p>' . $course->summary . '<p>';
     		//only add HR separator if editable section summary set
-    		if($sectionsummary !== '') $o .= '<hr/>';
+    		//if($sectionsummary !== '')
+    			//always add it
+    			$o .= '<hr/>';
+    		
     	}
     	$o .= $sectionsummary;
     
