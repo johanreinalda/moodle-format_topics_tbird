@@ -329,25 +329,6 @@ class format_topics_tbird extends format_base {
         return $this->update_format_options($data);
     }
 
-
-
-
-    public function course_content_header() {
-    	return new format_topics_tbird_courseobj('Course Content Header','DDDDDD');
-    }
-    
-    public function course_content_footer() {
-    	return new format_topics_tbird_courseobj('Course Content Footer','DDDDDD');
-    }
-    
-    public function course_header() {
-    	return new format_topics_tbird_courseobj('Course Header','DDDDDD');
-    }
-    
-    public function course_footer() {
-    	return new format_topics_tbird_courseobj('Course Footer','DDDDDD');
-    }
-
 }
     
 /**
