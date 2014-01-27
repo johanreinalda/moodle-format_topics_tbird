@@ -185,7 +185,7 @@ class format_topics_tbird extends format_base {
     /**
      * Definitions of the additional options that this course format uses for course
      *
-     * topics_tbird format uses the following options:
+     * Topics_tbird format uses the following options:
      * - coursedisplay
      * - numsections
      * - hiddensections

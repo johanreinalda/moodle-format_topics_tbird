@@ -26,7 +26,7 @@
 
 $string['currentsection'] = 'This topic';
 $string['sectionname'] = 'Topic';
-$string['pluginname'] = 'Thunderbird Topics';
+$string['pluginname'] = 'Thunderbird Topics format';
 $string['section0name'] = 'Course Description';
 $string['page-course-view-topics'] = 'Any course main page in topics format';
 $string['page-course-view-topics-x'] = 'Any course page in topics format';
