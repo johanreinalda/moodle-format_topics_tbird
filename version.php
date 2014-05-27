@@ -26,8 +26,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2013092000;        // The current plugin version (Date: YYYYMMDDXX).
-$plugin->requires  = 2013111800;        // Requires this Moodle version: 2.6
+$plugin->version   = 2014051200;        // The current plugin version (Date: YYYYMMDDXX).
+$plugin->requires  = 2014050800;        // Requires this Moodle version: 2.6
 $plugin->component = 'format_topics_tbird';    // Full name of the plugin (used for diagnostics).
 $plugin->release = '1.0';
-
